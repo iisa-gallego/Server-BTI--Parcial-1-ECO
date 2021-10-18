@@ -20,4 +20,28 @@ public class Bola {
 		app.imageMode(app.CORNER);
 	}
 
+	public int getBolaX() {
+		return bolaX;
+	}
+
+	public void setBolaX(int bolaX) {
+		this.bolaX = bolaX;
+	}
+
+	public int getBolaY() {
+		return bolaY;
+	}
+
+	public void setBolaY(int bolaY) {
+		this.bolaY = bolaY;
+	}
+
+	public PImage getBola() {
+		return bola;
+	}
+
+	public void setBola(PImage bola) {
+		this.bola = bola;
+	}
+
 }

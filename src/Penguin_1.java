@@ -50,4 +50,28 @@ public class Penguin_1 {
 
 	}
 
+	public int getPos1X() {
+		return pos1X;
+	}
+
+	public void setPos1X(int pos1x) {
+		pos1X = pos1x;
+	}
+
+	public int getPos1Y() {
+		return pos1Y;
+	}
+
+	public void setPos1Y(int pos1y) {
+		pos1Y = pos1y;
+	}
+
+	public PImage getLuis() {
+		return luis;
+	}
+
+	public void setLuis(PImage luis) {
+		this.luis = luis;
+	}
+
 }

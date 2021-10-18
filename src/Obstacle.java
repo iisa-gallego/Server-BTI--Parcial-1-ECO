@@ -20,4 +20,28 @@ public class Obstacle {
 		app.imageMode(app.CORNER);
 	}
 
+	public int getObjX() {
+		return objX;
+	}
+
+	public void setObjX(int objX) {
+		this.objX = objX;
+	}
+
+	public int getObjY() {
+		return objY;
+	}
+
+	public void setObjY(int objY) {
+		this.objY = objY;
+	}
+
+	public PImage getEnemy() {
+		return enemy;
+	}
+
+	public void setEnemy(PImage enemy) {
+		this.enemy = enemy;
+	}
+
 }
